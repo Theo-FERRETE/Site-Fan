@@ -22,6 +22,7 @@
             <a href="#awards">Récompenses</a>
             <a href="#news">Actualités</a>
             <a href="#social">Réseaux Sociaux</a>
+            <a href="#greatest-titles">Chansons Connues</a> <!-- Changement ici -->
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -57,7 +58,29 @@
             </div>
         </div>
     </section>
-
+   
+    <section id="greatest-titles" class="section"> <!-- Changement ici -->
+        <h2>Chansons Connues</h2>
+        <div class="video-container">
+            <div class="video-card">
+                <h3>Lose Yourself</h3>
+                <iframe width="500" height="350" src="c:\Users\theof\OneDrive\Bureau\Eminem - Lose Yourself.mp4" title="Lose Yourself" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Not Afraid</h3>
+                <iframe width="500" height="350" src="c:\Users\theof\OneDrive\Bureau\Eminem - Not Afraid.mp4" title="Not Afraid" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Love The Way You Lie</h3>
+                <iframe width="500" height="350" src="c:\Users\theof\OneDrive\Bureau\Love The Way You Lie.mp4" title="Love The Way You Lie" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Stan</h3>
+                <iframe width="500" height="350" src="c:\Users\theof\OneDrive\Bureau\Eminem - Stan (Long Version) ft. Dido.mp4" title="Stan" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    
     <section id="awards" class="section">
         <h2>Récompenses</h2>
         <p>Eminem est l'un des artistes les plus récompensés de l'histoire de la musique. Voici quelques-unes de ses récompenses les plus notables :</p>
@@ -119,7 +142,7 @@
             <button type="submit">Envoyer</button>
         </form>
     </section>
-0
+
     <footer class="footer">
         <p>&copy; 2024 Page de Fan d'Eminem. Tous droits réservés.</p>
     </footer>
