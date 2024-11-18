@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "jaymz";
+    src: url(font/jaymz.TTF)format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: "PermanentMarker";
+    src: url(font/PermanentMarker.ttf)format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    color: aliceblue;
+}
+@font-face {
+    font-family: "MOANHAND";
+    src: url(font/MOANHAND.ttf)format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    color: aliceblue;
+}
+
+
+
+.policeperso {
+    font-family: "jaymz";
+    color: aliceblue;
+    display: inline;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 30px;
+    
+}
+header {
+    background-color: gray;
+    
+    justify-content: center;
+    position: fixed;
+    width: 75%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0.1);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5px; 
+}
+header a:hover {
+        background-color: #c9c9c9;
+        border-radius: 5px;
+}
+
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: "MOANHAND",sans serif;
+    overflow-x: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.headerbox {
+    display: flex;
+    justify-content: row;
+}
+
+.box1h,.box2h,.box3h {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.metallica {
+    display: flex;
+    position: absolute;
+    left: 60%;
+    top: 75%;
+    z-index: -1;
+}
+
+.box1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#titre {
+    text-align: center;
+    font-size: 45px;
+    font-family: "jaymz";
+    margin-top: 50px;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.suite {
+    font-size: 30px;
+}
+
+.fond {
+    z-index: -1;
+    text-align: center;
+}
+
+.kirk {
+    display: flex;
+    justify-content:flex-end;
+    margin-left: 10px;
+}
+
+.FlyingV{
+    display: flex;
+    justify-content: left;
+    margin-right: 10px;
+}
+
+.box2 {
+    display: flex;
+}
+
+.texterandall {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.randall {
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+}   
+
+.esprandall {
+    margin-right: 50px;
+}
+
+.emg {
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 305%;
+    z-index: -1;
+}
+
+#prostatus {
+display:block;
+margin-left: 25%;
+}
+
+#extrait {
+    text-align: center;
+    font-size: 45px;
+    font-family: "jaymz";
+}
+
+.videobox {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#SonMateriel {
+    font-size: 45px;
+    text-align: center;
+    font-family: "jaymz";
+}
+
+.materiel {
+    font-family:"PermanentMarker";
+}
+footer {
+    background-color: gray;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+
+.boxf {
+    display:flex;
+    justify-content: center;
+}
